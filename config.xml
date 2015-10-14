@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.advs.manhummel.lpa" version="1.1.0">
-  <name>WATCHGUARDlive_login</name>
-  <description>WATCHGUARDlive_login</description>
+  <name>WATCHGUARDlive_v1.8</name>
+  <description>WATCHGUARDlive_v1.8</description>
   <author href="http://advicesync.com" email="support@advicesync.com">eImpressive</author>
   <content src="index.html"/>
 
@@ -10,11 +10,12 @@
 
 
 <!-- ios preferences -->
-<!-- <preference name="exit-on-suspend" value="false" />
+<preference name="exit-on-suspend" value="false" />
 <preference name="prerendered-icon" value="true" />
 <preference name="target-device" value="universal" />
+
 <preference name="detect-data-types" value="true" />
- -->
+
 
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
@@ -37,9 +38,10 @@
 <preference name="splash-screen-duration" value="6000" /> -->
 
 
-<!--     <preference name="android-windowSoftInputMode" value="adjustResize" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
- -->
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+
+   <!--  <preference name="HideKeyboardFormAccessoryBar" value="true"/> -->
+
 
     <feature name="http://api.phonegap.com/1.0/battery"/>
     <feature name="http://api.phonegap.com/1.0/camera"/>
