@@ -5,8 +5,8 @@
   <content src="index.html"/>
 
   <!-- supported platform builds -->
-<gap:platform name="ios" />
-<gap:platform name="android" />
+<!-- <gap:platform name="ios" />
+<gap:platform name="android" /> -->
 
 
 
@@ -32,11 +32,11 @@
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
 
-  <preference name="SplashScreen" value="screen" />
+<!--   <preference name="SplashScreen" value="screen" /> -->
 
 <!-- <preference name="SplashScreen" value="screen" />-->
-<preference name="SplashScreenDelay" value="1000" />
-<preference name="splash-screen-duration" value="6000" />
+<!-- <preference name="SplashScreenDelay" value="1000" />
+<preference name="splash-screen-duration" value="6000" /> -->
 
 
 <preference name="android-windowSoftInputMode" value="adjustResize" />
@@ -98,6 +98,7 @@
 <gap:plugin name="org.apache.cordova.dialogs" source="npm" />
 
 <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
+
 <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
 
 <!-- android crosswalk plugins (comment out on iOS build) -->
