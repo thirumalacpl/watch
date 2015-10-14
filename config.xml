@@ -10,11 +10,11 @@
 
 
 <!-- ios preferences -->
-<preference name="exit-on-suspend" value="false" />
+<!-- <preference name="exit-on-suspend" value="false" />
 <preference name="prerendered-icon" value="true" />
 <preference name="target-device" value="universal" />
 <preference name="detect-data-types" value="true" />
-
+ -->
 
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
@@ -38,9 +38,9 @@
 <preference name="splash-screen-duration" value="6000" /> -->
 
 
-    <preference name="android-windowSoftInputMode" value="adjustResize" />
+ <!--    <preference name="android-windowSoftInputMode" value="adjustResize" />
     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
-
+ -->
 
     <feature name="http://api.phonegap.com/1.0/battery"/>
     <feature name="http://api.phonegap.com/1.0/camera"/>
@@ -86,14 +86,14 @@
 <!-- plugins -->
 
 <!--waste space plugin start-->
-<!-- <plugin name="Battery" value="org.apache.cordova.BatteryListener" />
+<plugin name="Battery" value="org.apache.cordova.BatteryListener" />
 <gap:plugin name="org.apache.cordova.globalization" source="npm"/> 
 <gap:plugin name="org.apache.cordova.device" source="npm" />
-<gap:plugin name="org.apache.cordova.dialogs" source="npm" /> -->
+<gap:plugin name="org.apache.cordova.dialogs" source="npm" />
 <gap:plugin name="com.simplec.plugins.externalfiles" version="0.1.14" />
-<!-- <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
+<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
 <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
-<gap:plugin name="org.crosswalk.engine" version="1.3.0" /> -->
+<gap:plugin name="org.crosswalk.engine" version="1.3.0" />
 <!--space plugin end-->
 
 
